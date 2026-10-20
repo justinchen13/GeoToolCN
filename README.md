@@ -56,7 +56,7 @@ go get github.com/13Cohen/GeoToolCN/packages/go/v3    # Go 1.21+，无 cgo
 其他语言可用 CLI 或 HTTP 服务，二进制内置数据，无需运行时：
 
 ```bash
-docker run --rm -p 8080:8080 ghcr.io/13cohen/geotoolcn
+docker run --rm -p 8080:8080 ghcr.io/justinchen13/geotoolcn
 curl 'localhost:8080/reverse?lat=39.9042&lng=116.4074'
 
 # 或从 Releases 下载单文件二进制（linux / macOS / windows）

@@ -8,7 +8,7 @@
 | Python | `py-v3.0.0` | PyPI `geotool-cn` | 无 —— Trusted Publishing（OIDC） |
 | Node | `npm-v3.0.0` | npm `@geotoolcn/core` | 无 —— Trusted Publishing（OIDC） |
 | Go | `packages/go/v3.0.0` | 无（`go get` 直接解析 git tag） | 无 |
-| CLI | `cli-v3.0.0` | GitHub Release 二进制 + `ghcr.io/13cohen/geotoolcn` | `GITHUB_TOKEN`（自带） |
+| CLI | `cli-v3.0.0` | GitHub Release 二进制 + `ghcr.io/justinchen13/geotoolcn` | `GITHUB_TOKEN`（自带） |
 
 Go 的 tag 形状不是审美选择：module 位于子目录时，Go 要求 tag 必须是 `<子目录>/vX.Y.Z`。
 

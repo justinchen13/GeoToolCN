@@ -59,7 +59,7 @@ go get github.com/13Cohen/GeoToolCN/packages/go/v3    # Go 1.21+, no cgo
 For any other language, use the CLI or the HTTP server. The binary embeds the data and needs no runtime:
 
 ```bash
-docker run --rm -p 8080:8080 ghcr.io/13cohen/geotoolcn
+docker run --rm -p 8080:8080 ghcr.io/justinchen13/geotoolcn
 curl 'localhost:8080/reverse?lat=39.9042&lng=116.4074'
 
 # or download a single static binary from Releases (linux / macOS / windows)

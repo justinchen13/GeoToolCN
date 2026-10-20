@@ -245,7 +245,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6.2.0
         with:
-          images: ghcr.io/13cohen/geotoolcn
+          images: ghcr.io/justinchen13/geotoolcn
           flavor: |
             latest=${{ needs.plan.outputs.prerelease != 'true' }}
           tags: |

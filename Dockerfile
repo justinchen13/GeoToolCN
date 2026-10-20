@@ -1,6 +1,6 @@
 # geotoolcn as a service, for languages with no binding of their own.
 #
-#   docker run --rm -p 8080:8080 ghcr.io/13cohen/geotoolcn
+#   docker run --rm -p 8080:8080 ghcr.io/justinchen13/geotoolcn
 #   curl 'localhost:8080/reverse?lat=39.9042&lng=116.4074'
 
 # Cross-compiled rather than emulated: the build stage always runs on the

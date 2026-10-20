@@ -309,7 +309,7 @@ GeoToolCN/                          （单一 monorepo）
 | TS/JS | tag `npm-v1.0.0` | `npm publish`（core + data 分包） | `npm install @geotoolcn/core` |
 | Go | tag `packages/go/v1.0.0` | 无需发布，proxy 直接解析 tag | `go get github.com/13Cohen/GeoToolCN/packages/go` |
 | Rust | tag `rs-v1.0.0` | `cargo publish` | `cargo add geotoolcn` |
-| 长尾语言 | tag `cli-v1.0.0` | 交叉编译二进制 + 推 GHCR | `docker run ghcr.io/13cohen/geotoolcn serve` |
+| 长尾语言 | tag `cli-v1.0.0` | 交叉编译二进制 + 推 GHCR | `docker run ghcr.io/justinchen13/geotoolcn serve` |
 
 **⚠️ Go 的特殊处理**：Go module 没有中心化 registry，`go get` **直接从 git 拉源码**。
 这带来两个后果：
