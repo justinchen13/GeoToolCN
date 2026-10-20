@@ -24,8 +24,8 @@ chmod +x geotoolcn
 **容器镜像**（`linux/amd64`、`linux/arm64`，基于 `scratch`，约 18 MB）：
 
 ```bash
-docker run --rm -p 8080:8080 ghcr.io/13cohen/geotoolcn            # 起 HTTP 服务
-docker run --rm ghcr.io/13cohen/geotoolcn reverse 39.9042 116.4074   # 或直接跑子命令
+docker run --rm -p 8080:8080 ghcr.io/justinchen13/geotoolcn            # 起 HTTP 服务
+docker run --rm ghcr.io/justinchen13/geotoolcn reverse 39.9042 116.4074   # 或直接跑子命令
 ```
 
 **从源码**（需要 Go 1.21+，无需 cgo）：

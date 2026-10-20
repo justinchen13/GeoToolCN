@@ -169,7 +169,7 @@ Python 的公开 API 没有增删。升级指南见 [MIGRATION_v3.md](MIGRATION_
 |------|------|------|
 | Node.js / TypeScript | `npm install @geotoolcn/core` | ESM，零依赖，自带 `.d.ts`；Node 18+ |
 | Go | `go get github.com/13Cohen/GeoToolCN/packages/go/v3` | 无 cgo，数据 `go:embed`，`CGO_ENABLED=0` 可交叉编译 |
-| CLI / HTTP | GitHub Releases 五平台二进制；`ghcr.io/13cohen/geotoolcn` 镜像（amd64 / arm64） | 覆盖没有绑定的语言。用法见 [docs/CLI.md](docs/CLI.md) |
+| CLI / HTTP | GitHub Releases 五平台二进制；`ghcr.io/justinchen13/geotoolcn` 镜像（amd64 / arm64） | 覆盖没有绑定的语言。用法见 [docs/CLI.md](docs/CLI.md) |
 
 三种实现的 API 一一对应（Node 用驼峰，Go 用大写方法名），语义由 [SPEC.md](SPEC.md) 统一规定，
 每种实现约 600 行标准库代码。移植到新语言的步骤与验收清单见 [PORTING.md](PORTING.md)。

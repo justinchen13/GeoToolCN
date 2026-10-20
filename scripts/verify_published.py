@@ -651,7 +651,7 @@ def verify_cli(version: str | None, work: Path, artifact: Path | None = None) ->
         checks.append(Check("the container image runs", True,
                             "skipped: image is not pushed before publishing", skipped=True))
     elif docker_up:
-        image = f"ghcr.io/13cohen/geotoolcn:{tag}"
+        image = f"ghcr.io/justinchen13/geotoolcn:{tag}"
         proc = run(["docker", "run", "--rm", image, "reverse", "39.9042", "116.4074"], timeout=300)
         checks.append(Check(
             "the container image runs",

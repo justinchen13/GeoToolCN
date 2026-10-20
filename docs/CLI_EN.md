@@ -1,4 +1,4 @@
-<!-- translation-of: docs/CLI.md sha256:24686b50144f3135ba278fa24e0eea4e73fcfc22876b2edd33e98a63b2ff076d -->
+<!-- translation-of: docs/CLI.md sha256:8c8b74dd3402ab5e60771ed6f332a7422d4695a126f6e3747a80afc5378d8dbc -->
 
 # The geotoolcn CLI and HTTP server
 
@@ -30,8 +30,8 @@ chmod +x geotoolcn
 **Container image** (`linux/amd64`, `linux/arm64`, built on `scratch`, about 18 MB):
 
 ```bash
-docker run --rm -p 8080:8080 ghcr.io/13cohen/geotoolcn            # HTTP server
-docker run --rm ghcr.io/13cohen/geotoolcn reverse 39.9042 116.4074   # or a subcommand directly
+docker run --rm -p 8080:8080 ghcr.io/justinchen13/geotoolcn            # HTTP server
+docker run --rm ghcr.io/justinchen13/geotoolcn reverse 39.9042 116.4074   # or a subcommand directly
 ```
 
 **From source** (Go 1.21+, no cgo):
